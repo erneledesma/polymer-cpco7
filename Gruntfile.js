@@ -1,13 +1,13 @@
-module.exports = function(grunt) {
+module.exports = function ( grunt ) {
 
     grunt.initConfig({
       'connect': {
         demo: {
           options: {
-            hostname: 'localhost',
-            open: true,
-            port: 3000,
-            keepalive: true
+            hostname  : 'localhost',
+            keepalive : true,
+            open      : true,
+            port      : 3000
           }
         }
       },

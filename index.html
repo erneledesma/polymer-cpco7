@@ -1,14 +1,26 @@
+<!-- Ésta es la página web donde consumieremos nuestro elemento
+     personalizado. Aquí debemos llamar el script "Platfrom. Quien
+     se encarga de "nivelar" las capacidades de todos los navegadores  y de esta forma satisfacer una de las principales metas del proyecto:
+     La compatibilidad.  -->
+
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Hola, Polymer</title>
-    <script src="bower_components/platform/platform.js"></script>
-    <link rel="import" href="src/hello-world.html">
-</head>
-<body>
 
-    <hello-world who="#cpco7"></hello-world>
+  <head>
+      <meta charset="UTF-8">
+      <title>Hola, Polymer</title>
+      <script src="bower_components/platform/platform.js"></script>
+      <!-- La línea de abajo es totalmente innovadora. Importamos un archivo
+       .html; Éste contiene nuestro elemento personalizado, el cual
+         utilizaremos más adelante.  -->
+      <link rel="import" href="src/hello-world.html">
+  </head>
+ <body>
+      <!-- Y aquí, encontramos nuestro flamante elemento "hello-world";
+          el contenido de éste, se encuentra en src/hello-world.html,
+           junto con sus estilos y scripts encapsulados.  -->
+      <hello-world who="#cpco7"></hello-world>
 
-</body>
+  </body>
+
 </html>
