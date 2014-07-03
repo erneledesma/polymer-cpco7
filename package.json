@@ -1,0 +1,10 @@
+{
+  "name": "polymer-cpco7",
+  "author": "https://www.github.com/Alevardi",
+  "private": true,
+  "devDependencies": {
+      "grunt": "~0.4.1",
+      "grunt-cli": "~0.1.9",
+      "grunt-contrib-connect": "~0.8.0",
+  }
+}
